@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./MySite/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../fontawesome-free-6.3.0-web/css/all.css">
+    <link rel="icon" href="./MySite/images/logo/favicon.png" type="iamge/ico">
+    <link rel="stylesheet" href="./logman.css">
+    <title>login section</title>
+</head>
+<body>
+    <main id="main">
+        <div class="form-box">
+            <div class="btn-gp text-center">
+                <div id="account-btn"></div>
+                <button class="btn-toggle" onclick="Register()"> ثبت نام</button>
+                <button class="btn-toggle" onclick="Login()"> ورود</button>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="p-0">
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="p-0">
+                    <a href="#">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                </div>
+                <div class="p-0">
+                    <a href="#">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                </div>
+                <div class="p-0">
+                    <a href="#">
+                        <i class="fab fa-youtube-square"></i>
+                    </a>
+                </div>
+            </div>
+            <form action="get" id="login" class="input-group">
+                <input class="input-field" type="text" placeholder="نام کاربری" name="name">
+                <input class="input-field" type="password" placeholder="رمز ورود" name="password">
+                <input type="checkbox" class="check-box" name="check-box"> <span>
+                مرا به خاطر بسپر
+                </span>
+                <button type="submit" class="btn rounded-pill submit-btn"> ورود</button>
+            </form>
+            <form action="get" id="register" class="input-group">
+                <input class="input-field" type="text" placeholder="نام کاربری" name="name">
+                <input type="email" class="input-field" placeholder="ایمیل" name="email">
+                <input class="input-field" type="password" placeholder="رمز ورود" name="password">
+                <input type="checkbox" class="check-box" name="check-box"> <span>
+                مرا به خاطر بسپر
+                </span>
+                <button type="submit" class="btn rounded-pill submit-btn"> ورود</button>
+            </form>
+        </div>
+    </main>
+    <script src="./MySite/js/login-register.js"></script>
+</body>
+</html>

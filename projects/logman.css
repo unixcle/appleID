@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'koodak';
+    src: url('./MySite/fonts/KoodakBold.eot?#') format('eot') 
+    ,url('./MySite/fonts/KoodakBold.ttf') format('truetype') 
+    ,url('./MySite/fonts/KoodakBold.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'nazanin';
+    src: url('./MySite/fonts/Nazanin.eot?#') format('eot'),
+    url('./MySite/fonts/Nazanin.ttf') format('truetype'),
+    url('./MySite/fonts/Nazanin.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'yekan';
+    src: url('./MySite/fonts/Yekan.eot?#') format('eot'),
+    url('./MySite/fonts/yekan.ttf') format('truetype'),
+    url('./MySite/fonts/yekan.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: 'yekan';
+}
+body{
+    height: 100vh;
+}
+main{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(./MySite/images/root/back3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.form-box{
+    background-color: rgb(238, 241, 243);
+    position: relative;
+    width: 400px;
+    height: 480px;
+    margin: 200px auto;
+    overflow: hidden;
+}
+.btn-gp{
+    width: 270px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    height: 3rem;
+    padding-top: 2px;
+    background-color: #fff;
+    box-shadow: 3px 3px 2px #b18e8e;
+    border-radius: 24px;
+    cursor: pointer;
+}
+/* .btn-gp .btn-2{
+    background: rgb(34,193,195);
+    background: linear-gradient(61deg, rgba(34,193,195,1) 0%, rgba(45,253,128,1) 100%);
+    width: 7rem;
+    height: 2.5rem;
+    margin: 20 auto;
+    border: none;
+    border-radius: 24px;
+    z-index: 2;
+    position: relative;
+    left: 20px;
+} */
+.btn-gp .btn-toggle{
+    position: relative;
+    width: 7rem;
+    height: 2.5rem;
+    margin: 20 auto;
+    border: none;
+    border-radius: 24px;
+    background-color: #fff;
+    padding-left: 30px;
+    outline: none;
+}
+.fab{
+    margin: 75px 10px;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    padding: 0 auto;
+    font-size: 26px;
+    padding-left: 9px;
+    padding-top: 6px;
+    background-color: rgb(127, 146, 255);
+    border-radius: 50%;
+    color: #fff;
+}
+.ff{
+    background-color: aqua;
+    border-radius: 50%;
+}
+#account-btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 48px;
+    border-radius: 24px;
+    z-index: 4;
+    background-color: blue;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.input-group{
+    position: absolute;
+    width: 250px;
+    top: 210px;
+    margin: 0 22px;
+    right: 50px;
+    transition: 0.5s;
+}
+.input-field{
+    width: 100%;
+    padding: 8px 8px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #bdbdbd;
+    margin: 6px 8px;
+    background-color: transparent;
+    outline: none;
+}
+.check-box{
+    margin: 15px 15px;
+}
+.input-group span{
+    font-size: 14px;
+    position: absolute;
+    top: 115px ;
+    right: 34px;
+    color: #999;
+}
+.submit-btn{
+    width: 100%;
+    margin-top: 15px;
+    background-color: rgb(127, 146, 255);;
+    outline: none;
+    color: #fff;
+}
+#register {
+    right: 400px;
+}
+#register span{
+    top: 169px;
+}
+.form-box #register{
+    top: 185px;
+}
